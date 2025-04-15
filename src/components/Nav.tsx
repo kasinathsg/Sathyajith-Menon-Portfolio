@@ -7,10 +7,7 @@ import {
   IconBrandX,
   IconBrandInstagram,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [

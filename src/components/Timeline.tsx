@@ -63,7 +63,7 @@ export function TimelineDemo() {
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">
-            At Helen O'Grady International Preschool, I developed a backend data system for handling operational data, transforming raw info into business-ready dashboards that empowered senior leadership to make key strategic decisions.
+            At Helen O&apos;Grady International Preschool, I developed a backend data system for handling operational data, transforming raw info into business-ready dashboards that empowered senior leadership to make key strategic decisions.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image

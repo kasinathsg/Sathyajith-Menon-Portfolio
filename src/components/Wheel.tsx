@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './styles.css'
 
 interface Field {
@@ -10,7 +10,7 @@ interface Field {
 }
 
 const SpinningWheel: React.FC = () => {
-  const [fields, setFields] = useState<Field[]>([
+  const [fields] = useState<Field[]>([
     { id: 1, label: 'Field 1', color: '#FF69B4' },
     { id: 2, label: 'Field 2', color: '#34A85A' },
     { id: 3, label: 'Field 3', color: '#FFC107' },

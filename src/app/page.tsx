@@ -1,14 +1,7 @@
-import { LayoutGridDemo } from "@/components/Grid";
-import Section from "@/components/Main";
 import Sidebar from "@/components/Sidebar";
 import MainContent from "@/components/MainContent";
-import { AnimatedModalDemo } from "@/components/Modal";
-import { FloatingDockDemo } from "@/components/Nav";
-import { HeroScrollDemo } from "@/components/Scroll";
-import SpinningWheel from "@/components/Wheel";
 import { MyProjects } from "@/components/Projects";
 import { MacbookScrollDemo } from "@/components/SthyaMac";
-import Image from "next/image";
 import ContactPage from "@/components/Contact";
 import { TimelineDemo } from "@/components/Timeline";
 
