@@ -8,12 +8,9 @@ import { TimelineDemo } from "@/components/Timeline";
 export default function Home() {
   return (
     <div className="bg-black text-white min-h-screen">
-      {/* Fixed Sidebar */}
       <div className="fixed top-0 left-0 h-screen w-[250px] z-10">
         <Sidebar />
       </div>
-
-      {/* Main Content with margin to avoid overlap */}
       <div className="ml-[250px]">
         <div id="mainContent">
           <MainContent />

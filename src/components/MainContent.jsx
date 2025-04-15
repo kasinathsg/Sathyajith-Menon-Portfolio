@@ -39,22 +39,28 @@ const MainContent = () => {
                         </p>
 
                         <div className="flex space-x-4 mb-8">
-                            <button
-                                className="text-white px-4 py-2 rounded"
-                                style={{ backgroundColor: "rgb(133,14,53)" }}
-                            >
-                                Explore Now
-                            </button>
-                            <button
-                                className="px-4 py-2 rounded border"
-                                style={{
-                                    borderColor: "rgb(133,14,53)",
-                                    color: "rgb(133,14,53)",
-                                }}
-                            >
-                                View More
-                            </button>
-                        </div>
+  <a
+    href="https://github.com/SATHYAJITHMENON"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white px-4 py-2 rounded"
+    style={{ backgroundColor: "rgb(133,14,53)" }}
+  >
+    Explore Now
+  </a>
+  <a
+    href="https://linkedin.com/in/sathyajith-menon"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-4 py-2 rounded border"
+    style={{
+      borderColor: "rgb(133,14,53)",
+      color: "rgb(133,14,53)",
+    }}
+  >
+    View More
+  </a>
+</div>
 
                         <div className="flex items-start space-x-4">
                             <div
