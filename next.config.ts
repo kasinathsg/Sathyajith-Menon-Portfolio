@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: [
+      "res.cloudinary.com", // Cloudinary
+      "via.placeholder.com", // Placeholder images
+      "assets.aceternity.com", // Aceternity UI logo
+      "images.unsplash.com" // ✅ Add Unsplash
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
