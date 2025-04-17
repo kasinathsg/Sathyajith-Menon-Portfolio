@@ -2,27 +2,7 @@ import React from "react";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import Link from "next/link";
 
-export function MacbookScrollDemo() {
-  return (
-    <div className="overflow-hidden  bg-black text-white w-full">
-      <MacbookScroll
-        title={
-          <span className="text-white text-5xl">
-            About Myself <br /> Sathyajith Menon.
-          </span>
-        }
-        badge={
-          <Link href={""}>
-            <Badge className="h-10 w-10 transform -rotate-12" />
-          </Link>
-        }
-        src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744693835/Screenshot_2025-04-15_095523copy_fnalcu.png"
-        showGradient={false}
-      />
-    </div>
-  );
-}
-
+// Responsive Badge SVG Component
 const Badge = ({ className }) => {
   return (
     <svg
@@ -64,3 +44,28 @@ const Badge = ({ className }) => {
     </svg>
   );
 };
+
+export function MacbookScrollDemo() {
+    return (
+      <div className="overflow-hidden bg-black text-white w-full px-4 sm:px-8 md:px-16 py-12 flex justify-center pb-20">
+        <div className="scale-[0.85] origin-top">
+          <MacbookScroll
+            title={
+              <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight">
+                About Myself <br /> Sathyajith Menon.
+              </span>
+            }
+            badge={
+              <Link href={""}>
+                <Badge className="h-8 w-8 sm:h-10 sm:w-10 transform -rotate-12" />
+              </Link>
+            }
+            src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744693835/Screenshot_2025-04-15_095523copy_fnalcu.png"
+            showGradient={false}
+          />
+        </div>
+      </div>
+    );
+  }
+  
+  

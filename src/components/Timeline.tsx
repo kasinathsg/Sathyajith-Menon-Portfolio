@@ -113,7 +113,7 @@ export function TimelineDemo() {
   ]
 
   return (
-    <div className="dark bg-black min-h-screen p-6 font-kakrla">
+    <div className="dark scale-[0.85] bg-black min-h-screen p-6 font-kakrla">
       <Timeline data={data} />
     </div>
   )

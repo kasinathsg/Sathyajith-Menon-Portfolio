@@ -80,7 +80,7 @@ export function MyProjects() {
   ]
 
   return (
-    <div className="bg-black min-h-screen px-6 md:px-48 py-12 font-karkala mt-60">
+    <div className="bg-black scale-[0.85] min-h-screen px-6 md:px-48 py-12 font-karkala mt-60">
       {/* Projects Section */}
       <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
         My Projects

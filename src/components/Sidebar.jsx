@@ -5,9 +5,9 @@ import { Link } from "react-scroll"; // Import react-scroll's Link component
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px] h-screen p-6 flex flex-col justify-between bg-neutral-950 text-white overflow-y-auto">
+    <div className="w-[250px]  h-screen p-6 flex flex-col justify-between bg-neutral-950 text-white overflow-y-auto">
       {/* Profile */}
-      <div className="text-center">
+      <div className="text-center scale-[0.85]">
         <img
           alt="Profile picture of Sathyajith Menon"
           className="rounded-full mx-auto mb-4"
@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
 
       {/* Nav */}
-      <nav className="mt-10 flex-1">
+      <nav  className="mt-10 scale-[0.85] flex-1">
         <ul className="flex flex-col items-center space-y-6 text-lg">
           <li>
             <Link
@@ -64,7 +64,7 @@ const Sidebar = () => {
       </nav>
 
       {/* Footer */}
-      <div className="text-center">
+      <div className="text-center scale-[0.85]">
         <div className="flex justify-center space-x-4 mb-4">
           <a className="hover:text-red-500" href="mailto:sathyajithmenon0208@gmail.com">
             <Mail size={20} />

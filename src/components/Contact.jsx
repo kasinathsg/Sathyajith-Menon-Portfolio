@@ -25,7 +25,7 @@ export default function ContactPage() {
   
 
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center font-inter px-6 py-16">
+    <div className="bg-black scale-[0.85] text-white min-h-screen flex items-center justify-center font-inter px-6 py-16">
       <div className="container px-6 lg:px-20 mx-auto flex flex-col lg:flex-row items-center lg:items-start">
         {/* Left Content */}
         <div className="lg:w-1/2 mb-12 lg:mb-0">
