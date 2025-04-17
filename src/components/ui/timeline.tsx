@@ -7,6 +7,7 @@ import {
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
+  para: string;
   title: string;
   content: React.ReactNode;
 }
@@ -56,9 +57,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block font-karla text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
-                {item.title}
-              </h3>
+              <div className="hidden md:block md:pl-20">
+  <h3 className="font-karla text-4xl font-bold text-neutral-500 dark:text-neutral-500">
+    {item.title}
+  </h3>
+  <h1 className="mt-2 font-karla text-3xl font-medium text-neutral-400 dark:text-neutral-600">
+    {item.para}
+  </h1>
+</div>
+
+
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">

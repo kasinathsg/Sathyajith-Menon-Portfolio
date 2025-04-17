@@ -60,7 +60,7 @@ export function MacbookScrollDemo() {
                 <Badge className="h-8 w-8 sm:h-10 sm:w-10 transform -rotate-12" />
               </Link>
             }
-            src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744693835/Screenshot_2025-04-15_095523copy_fnalcu.png"
+            src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744882878/Group_1_2_vrqcmy.png"
             showGradient={false}
           />
         </div>

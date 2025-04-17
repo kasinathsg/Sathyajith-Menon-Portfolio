@@ -80,7 +80,7 @@ export function MyProjects() {
   ]
 
   return (
-    <div className="bg-black scale-[0.85] min-h-screen px-6 md:px-48 py-12 font-karkala mt-60">
+    <div className="bg-black scale-[0.85] min-h-screen px-6 md:px-20 py-12 font-karkala mt-60">
       {/* Projects Section */}
       <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
         My Projects
@@ -123,7 +123,8 @@ export function MyProjects() {
             <h3 className="text-white text-base md:text-lg font-semibold mb-3">
               {skill.title}
             </h3>
-            <ul className="list-disc list-inside text-neutral-300 text-xs md:text-sm space-y-1">
+            <ul className="list-disc list-outside pl-4 text-neutral-300 text-xs md:text-sm space-y-1">
+
               {skill.items.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}

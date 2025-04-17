@@ -7,7 +7,8 @@ import { Timeline } from "@/components/ui/timeline"
 export function TimelineDemo() {
   const data = [
     {
-      title: "Nov 2024 – Present",
+      title: "Random Walk.AI",
+      para: "Nov 2024 – Present",
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">
@@ -33,7 +34,8 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "July 2024 – Aug 2024",
+      title: "Random Walk.AI",
+      para: "July 2024 - August 2024",
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">
@@ -59,7 +61,8 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "July 2023 – Aug 2023",
+      title: "Helen O'Grady International Preschool",
+      para: "July 2023 - August 2023",
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">
@@ -85,7 +88,8 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "June 2023 – July 2023",
+      title: "Learner Zone (SIP Abacus)",
+      para: "June 2023 - July 2023",
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">

@@ -79,7 +79,7 @@ const MainContent = () => {
                     <div className="pr-12">
                         <img
                             alt="Profile picture of Sathyajith Menon"
-                            className="rounded-full"
+                            className="rounded-full object-cover object-[80%_20%]"
                             src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744649957/EA000837-BD23-4E69-88F7-D9A0404826F7_df93qi.jpg"
                             style={{ width: "500px", height: "500px", objectFit: "cover" }}
                         />
