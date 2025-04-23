@@ -46,26 +46,24 @@ const Badge = ({ className }) => {
 };
 
 export function MacbookScrollDemo() {
-    return (
-      <div className="overflow-hidden bg-black text-white w-full px-4 sm:px-8 md:px-16 py-12 flex justify-center pb-20">
-        <div className="scale-[0.85] origin-top">
-          <MacbookScroll
-            title={
-              <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight">
-                About Myself <br /> Sathyajith Menon.
-              </span>
-            }
-            badge={
-              <Link href={""}>
-                <Badge className="h-8 w-8 sm:h-10 sm:w-10 transform -rotate-12" />
-              </Link>
-            }
-            src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744882878/Group_1_2_vrqcmy.png"
-            showGradient={false}
-          />
-        </div>
+  return (
+    <div className="overflow-hidden bg-black text-white w-full px-4 sm:px-8 md:px-16 py-12 flex justify-center pb-20">
+      <div className="scale-[1] lg:scale-[0.85] origin-top w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12">
+        <MacbookScroll
+          title={
+            <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight">
+              About Myself <br /> Sathyajith Menon.
+            </span>
+          }
+          badge={
+            <Link href={""}>
+              <Badge className="h-8 w-8 sm:h-10 sm:w-10 transform -rotate-12" />
+            </Link>
+          }
+          src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744882878/Group_1_2_vrqcmy.png"
+          showGradient={false}
+        />
       </div>
-    );
-  }
-  
-  
+    </div>
+  );
+}
