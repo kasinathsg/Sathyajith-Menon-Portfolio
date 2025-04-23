@@ -4,14 +4,14 @@ import { SparklesCore } from "./ui/sparkles";
 const MainContent = () => {
     return (
         <div
-            className="w-full min-h-screen pt-40 pb-20 flex justify-center"
+            className="w-full min-h-screen pt-40 sm:pb-0 flex justify-center"
             style={{ backgroundColor: "rgb(0,0,0)", color: "white" }}
         >
             <div className="scale-[0.85] origin-top w-full px-4 md:px-0">
                 <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between max-w-7xl mx-auto">
                     {/* Left: Text Content */}
                     <div className="flex-1 pr-8 w-full">
-                        <h1 className="text-5xl font-extrabold text-center lg:text-left text-white ml-20">
+                        <h1 className="text-5xl font-extrabold text-center lg:text-left text-white ml-10 lg:ml-20">
                             SATHYAJITH MENON
                         </h1>
                         <div className="w-[40rem] max-w-full h-28 relative mx-auto lg:mx-0">
@@ -80,13 +80,14 @@ const MainContent = () => {
                     </div>
 
                     {/* Right: Image */}
-                    <div className="pr-12 mb-10 lg:mb-0 flex justify-center lg:justify-end  ml-16 sm:mt-0 sm:ml-0">
-                        <img
-                            alt="Profile picture of Sathyajith Menon"
-                            className="rounded-full object-cover object-[80%_20%] w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px]"
-                            src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744649957/EA000837-BD23-4E69-88F7-D9A0404826F7_df93qi.jpg"
-                        />
-                    </div>
+                    <div className="pr-12 mb-10 lg:mb-0 flex justify-center lg:justify-end ml-16 sm:mt-0 sm:ml-0">
+    <img
+        alt="Profile picture of Sathyajith Menon"
+        className="rounded-full object-cover object-[80%_20%] w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[500px]"
+        src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744649957/EA000837-BD23-4E69-88F7-D9A0404826F7_df93qi.jpg"
+    />
+</div>
+
                 </div>
             </div>
         </div>
