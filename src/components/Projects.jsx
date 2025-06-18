@@ -217,7 +217,7 @@ export function MyProjects() {
   
 
   return (
-    <div className="bg-black scale-[0.85] min-h-screen px-6 md:px-20 py-12 font-karkala mt-60">
+    <div className="bg-black scale-[0.85] min-h-screen px-6 md:px-20 py-12 font-karkala ">
       {/* Projects Section */}
       <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">

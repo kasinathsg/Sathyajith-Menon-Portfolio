@@ -48,7 +48,7 @@ const Badge = ({ className }) => {
 export function MacbookScrollDemo() {
     return (
       <div className="overflow-hidden bg-black text-white w-full px-4 sm:px-8 md:px-16 flex justify-center pb-10">
-        <div className="scale-[1.25] lg:scale-[0.65] origin-top">
+        <div className="scale-[1.25] lg:scale-[0.75] origin-top">
           <MacbookScroll
             title={
               <span className="text-white text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight">

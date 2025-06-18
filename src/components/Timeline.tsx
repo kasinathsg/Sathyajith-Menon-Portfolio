@@ -12,7 +12,7 @@ export function TimelineDemo() {
       content: (
         <div className="font-kakrla">
           <p className="text-neutral-200 text-lg font-karla mb-8">
-            As a full-time Data Analyst at Random Walk.AI, I contribute to high-impact, real-time projects focusing on community-centric innovation. My work spans collection, cleaning, modeling, and visualization using SQL, Python, Tableau, and Power BI to drive strategic insights and influence product and social outcomes.
+            As a full-time Data Analyst at Random Walk.AI, I contribute to high-impact, real-time projects focusing on community-centric innovation. My work spans collection, cleaning, modeling, and visualization using SQL, Python, Tableau, and Power BI to drive strategic insight.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -20,14 +20,14 @@ export function TimelineDemo() {
               alt="Random Walk Main"
               width={800}
               height={800}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
             <Image
               src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744695943/2Ease_of_Business_Index_aumfhz.png"
               alt="Community Insights"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
           </div>
         </div>
@@ -47,21 +47,21 @@ export function TimelineDemo() {
               alt="Noise Radar Dashboard"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
             <Image
               src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744696421/13634_2022_884_Fig7_HTML_g59s3p.png"
               alt="IoT Visualization"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
           </div>
         </div>
       ),
     },
     {
-      title: "Helen O'Grady International Preschool",
+      title: "Helen O'Grady ",
       para: "July 2023 - August 2023",
       content: (
         <div className="font-kakrla">
@@ -74,14 +74,14 @@ export function TimelineDemo() {
               alt="Helen O'Grady Dashboard"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
             <Image
               src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744695939/Top-5-Ways-for-Two-Back-End-Systems-to-Communicate_dqtzdl.jpg"
               alt="Backend Data"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-60 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
           </div>
         </div>
@@ -101,15 +101,16 @@ export function TimelineDemo() {
               alt="Learner Zone Financial Reports"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-72 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
             <Image
               src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744697585/headway-5QgIuuBxKwM-unsplash_j4e4tx.jpg"
               alt="BI Tools Visualization"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-72 w-full shadow-lg"
+              className="rounded-lg object-cover h-48 w-full shadow-lg"
             />
+            
           </div>
         </div>
       ),

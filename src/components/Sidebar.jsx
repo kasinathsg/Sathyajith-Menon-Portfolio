@@ -10,8 +10,8 @@ const Sidebar = () => {
       <div className="text-center scale-[0.85]">
         <img
           alt="Profile picture of Sathyajith Menon"
-          className="rounded-full mx-auto mb-4 object-cover object-[80%_20%]"
-          src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744649957/EA000837-BD23-4E69-88F7-D9A0404826F7_df93qi.jpg"
+          className="rounded-full mx-auto mb-4 object-cover object-[50%_50%]"
+          src="https://res.cloudinary.com/dvdljupjx/image/upload/v1750246642/IMG_3580_nr9enh.jpg"
           style={{ width: "100px", height: "100px", objectFit: "cover" }}
         />
         <h1 className="text-xl font-bold">Sathyajith Menon</h1>

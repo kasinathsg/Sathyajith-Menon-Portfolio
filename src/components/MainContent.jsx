@@ -83,8 +83,8 @@ const MainContent = () => {
                     <div className="pr-12 mb-10 lg:mb-0 flex justify-center lg:justify-end ml-16 sm:mt-0 sm:ml-0">
     <img
         alt="Profile picture of Sathyajith Menon"
-        className="rounded-full object-cover object-[80%_20%] w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[500px]"
-        src="https://res.cloudinary.com/dvdljupjx/image/upload/v1744649957/EA000837-BD23-4E69-88F7-D9A0404826F7_df93qi.jpg"
+        className="rounded-full object-cover object-[50%_50%] w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[500px]"
+        src="https://res.cloudinary.com/dvdljupjx/image/upload/v1750246642/IMG_3580_nr9enh.jpg"
     />
 </div>
 
